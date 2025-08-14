@@ -2,7 +2,7 @@
 authors = [{name = "Naiara Patiño", email = "naiarapatino@gmail.com"}]
 dependencies = []
 name = "mygeopy"
-requires-python = ">= 3.11"
+requires-python = ">= 3.9"
 version = "0.1.0"
 
 [build-system]
