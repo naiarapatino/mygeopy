@@ -9,6 +9,9 @@ version = "0.1.0"
 build-backend = "hatchling.build"
 requires = ["hatchling"]
 
+[projects.optional-dependencies]
+tests = ["pytest"]
+
 [tool.pixi.workspace]
 channels = ["conda-forge"]
 platforms = ["osx-arm64"]
@@ -17,3 +20,6 @@ platforms = ["osx-arm64"]
 mygeopy = { path = ".", editable = true }
 
 [tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+doctest = ">=2.4.12,<3"
