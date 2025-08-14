@@ -9,7 +9,7 @@ version = "0.1.0"
 build-backend = "hatchling.build"
 requires = ["hatchling"]
 
-[projects.optional-dependencies]
+[project.optional-dependencies]
 tests = ["pytest"]
 
 [tool.pixi.workspace]
